@@ -1,0 +1,51 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js
+.next/
+out/
+**/.next/
+**/out/
+
+# Build outputs
+dist/
+build/
+coverage/
+**/dist/
+**/build/
+**/coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Testing
+.nyc_output/
+
+# IDE and editor
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI coding tool files
+.agents/
+.claude/
+.cursor/
+.devin/
+AGENTS.md
